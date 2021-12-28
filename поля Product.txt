@@ -1,0 +1,40 @@
+<OneToOneRel: analytics.productrecord>
+<ManyToOneRel: analytics.userproductview>
+<ManyToOneRel: catalogue.productcategory>
+<ManyToOneRel: catalogue.product>
+<ManyToManyRel: catalogue.product>
+<ManyToOneRel: catalogue.productrecommendation>
+<ManyToOneRel: catalogue.productrecommendation>
+<ManyToOneRel: catalogue.productattributevalue>
+<ManyToOneRel: catalogue.productimage>
+<ManyToOneRel: reviews.productreview>
+<ManyToOneRel: partner.stockrecord>
+<ManyToOneRel: basket.line>
+<ManyToManyRel: offer.range>
+<ManyToManyRel: offer.range>
+<ManyToOneRel: offer.rangeproduct>
+<ManyToOneRel: order.line>
+<ManyToOneRel: customer.productalert>
+<ManyToOneRel: wishlists.line>
+catalogue.Product.id
+catalogue.Product.structure
+catalogue.Product.is_public
+catalogue.Product.upc #артикул
+catalogue.Product.parent
+catalogue.Product.title #название
+catalogue.Product.slug
+catalogue.Product.description
+catalogue.Product.meta_title
+catalogue.Product.meta_description
+catalogue.Product.product_class #тип товара, связь полей
+catalogue.Product.rating
+catalogue.Product.date_created
+catalogue.Product.date_updated
+catalogue.Product.is_discountable
+catalogue.Product.attributes
+catalogue.Product.product_options
+catalogue.Product.recommended_products
+catalogue.Product.categories #связь м2м
+
+
+[id,structure,is_public,upc,parent,title,slug,description,meta_title,meta_description,product_class,rating,date_created,date_updated,is_discountable,attributes,product_options,recommended_products,categories]

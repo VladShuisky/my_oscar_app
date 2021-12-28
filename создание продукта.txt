@@ -1,0 +1,4 @@
+>>> p2 = Product.objects.create(title='кепка адидас 1', upc='2281488', product_class=ProductClass.objects.get(name='Кепки'))
+>>> p2.save()
+>>> p2.categories.add(Category.objects.all()[0])
+>>> p2.save()
